@@ -1,0 +1,104 @@
+body {
+    background-image: url(images/sky.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: akira;
+    src: url(fonts/Akira.otf);
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    border-style: solid;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 33px;
+    padding-bottom: 15px;
+    background-image: url(images/papyrus.jpg);
+    background-size: auto;
+    border-width: 5px;
+}
+
+img {
+    border-style: inset;
+    border-color: black;
+    border-width: 5px;
+    margin-bottom: 20%;
+}
+.beschreibung {
+    margin-bottom: 1%;
+    font-size: large;
+}
+h1 {
+    font-size: 7em;
+    font-family: akira;
+    text-decoration: underline;
+    text-align: center;
+}
+h3 {
+    font-family: akira;
+    font-size: 2em;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+    /* Set the width of the navigation bar (optional) */
+    width: fit-content; /* Or a specific width in pixels or percentages */
+    font-size: 3em;
+    border: solid;
+    border-width: 5px;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+  
+    a {
+      padding: 8px;
+      background-color: #dddddd;
+    }
+  
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    li a:hover {
+      background-color: #111;
+    }
+  
+    .active {
+      background-color: #d8b073;
+    }
+  }
+  
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
